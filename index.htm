@@ -13,6 +13,7 @@
 <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
 <base target="_blank" />
 <style>
+ol,ul,li{list-style:num;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
   .select,
   #locale {
     width: 100%;
@@ -20,6 +21,101 @@
   .like {
     margin-right: 10px;
   }
+.flex {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #f4f7f7;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+/* THE LIST ITSELF */
+.list {
+  font-size: 18px;
+  list-style:num;
+  width:95%;
+}
+.list__item {
+  position: relative;
+  padding: 1.1em;
+  line-height: 1;
+  perspective: 150px;
+  background-color: #f4f7f7;
+  white-space: nowrap;
+}
+.list__item::before, .list__item::after {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 0;
+  width: 0;
+  content: "";
+  border: 0 solid transparent;
+}
+.list__item::after {
+  right: 0;
+}
+.list__item::before {
+  left: 0;
+}
+.list__item:nth-child(even) {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+}
+.list__item:nth-child(even)::before, .list__item:nth-child(even)::after {
+  border-top-color: #1f4e5f;
+  border-top-width: 4em;
+}
+.list__item:nth-child(even)::before {
+  border-right-width: 5px;
+}
+.list__item:nth-child(even)::after {
+  border-left-width: 5px;
+}
+.list__item:nth-child(odd) {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%);
+}
+.list__item:nth-child(odd)::before, .list__item:nth-child(odd)::after {
+  border-bottom-color: #1f4e5f;
+  border-bottom-width: 4em;
+}
+.list__item:nth-child(odd)::before {
+  border-right-width: 5px;
+}
+.list__item:nth-child(odd)::after {
+  border-left-width: 5px;
+}
+.list__item-text {
+  display: inline-block;
+}
+.list__item-text a{
+font-weight:bolder;
+}
+.list__item-zap {
+  display: inline-block;
+  float:right;
+}
+.list__item:nth-child(odd) .list__item-text {
+  transform: rotateX(-7deg);
+}
+.list__item:nth-child(even) .list__item-text {
+  transform: rotateX(7deg);
+}
+.nbtn{
+margin-left:30px;
+}
+.tx{
+height:23px;
+margin-right:10px;
+}
 </style>
 <script>
 var _hmt = _hmt || [];
@@ -30,13 +126,86 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+<script>
+/*!
+ * clipboard.js v2.0.4
+ * https://zenorocha.github.io/clipboard.js
+ * Licensed MIT © Zeno Rocha
+ */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.ClipboardJS=e():t.ClipboardJS=e()}(this,function(){return function(n){var o={};function r(t){if(o[t])return o[t].exports;var e=o[t]={i:t,l:!1,exports:{}};return n[t].call(e.exports,e,e.exports,r),e.l=!0,e.exports}return r.m=n,r.c=o,r.d=function(t,e,n){r.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:n})},r.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return r.d(e,"a",e),e},r.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},r.p="",r(r.s=0)}([function(t,e,n){"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},i=function(){function o(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(t,e,n){return e&&o(t.prototype,e),n&&o(t,n),t}}(),a=o(n(1)),c=o(n(3)),u=o(n(4));function o(t){return t&&t.__esModule?t:{default:t}}var l=function(t){function o(t,e){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,o);var n=function(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e}(this,(o.__proto__||Object.getPrototypeOf(o)).call(this));return n.resolveOptions(e),n.listenClick(t),n}return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)}(o,c.default),i(o,[{key:"resolveOptions",value:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{};this.action="function"==typeof t.action?t.action:this.defaultAction,this.target="function"==typeof t.target?t.target:this.defaultTarget,this.text="function"==typeof t.text?t.text:this.defaultText,this.container="object"===r(t.container)?t.container:document.body}},{key:"listenClick",value:function(t){var e=this;this.listener=(0,u.default)(t,"click",function(t){return e.onClick(t)})}},{key:"onClick",value:function(t){var e=t.delegateTarget||t.currentTarget;this.clipboardAction&&(this.clipboardAction=null),this.clipboardAction=new a.default({action:this.action(e),target:this.target(e),text:this.text(e),container:this.container,trigger:e,emitter:this})}},{key:"defaultAction",value:function(t){return s("action",t)}},{key:"defaultTarget",value:function(t){var e=s("target",t);if(e)return document.querySelector(e)}},{key:"defaultText",value:function(t){return s("text",t)}},{key:"destroy",value:function(){this.listener.destroy(),this.clipboardAction&&(this.clipboardAction.destroy(),this.clipboardAction=null)}}],[{key:"isSupported",value:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:["copy","cut"],e="string"==typeof t?[t]:t,n=!!document.queryCommandSupported;return e.forEach(function(t){n=n&&!!document.queryCommandSupported(t)}),n}}]),o}();function s(t,e){var n="data-clipboard-"+t;if(e.hasAttribute(n))return e.getAttribute(n)}t.exports=l},function(t,e,n){"use strict";var o,r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},i=function(){function o(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(t,e,n){return e&&o(t.prototype,e),n&&o(t,n),t}}(),a=n(2),c=(o=a)&&o.__esModule?o:{default:o};var u=function(){function e(t){!function(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}(this,e),this.resolveOptions(t),this.initSelection()}return i(e,[{key:"resolveOptions",value:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:{};this.action=t.action,this.container=t.container,this.emitter=t.emitter,this.target=t.target,this.text=t.text,this.trigger=t.trigger,this.selectedText=""}},{key:"initSelection",value:function(){this.text?this.selectFake():this.target&&this.selectTarget()}},{key:"selectFake",value:function(){var t=this,e="rtl"==document.documentElement.getAttribute("dir");this.removeFake(),this.fakeHandlerCallback=function(){return t.removeFake()},this.fakeHandler=this.container.addEventListener("click",this.fakeHandlerCallback)||!0,this.fakeElem=document.createElement("textarea"),this.fakeElem.style.fontSize="12pt",this.fakeElem.style.border="0",this.fakeElem.style.padding="0",this.fakeElem.style.margin="0",this.fakeElem.style.position="absolute",this.fakeElem.style[e?"right":"left"]="-9999px";var n=window.pageYOffset||document.documentElement.scrollTop;this.fakeElem.style.top=n+"px",this.fakeElem.setAttribute("readonly",""),this.fakeElem.value=this.text,this.container.appendChild(this.fakeElem),this.selectedText=(0,c.default)(this.fakeElem),this.copyText()}},{key:"removeFake",value:function(){this.fakeHandler&&(this.container.removeEventListener("click",this.fakeHandlerCallback),this.fakeHandler=null,this.fakeHandlerCallback=null),this.fakeElem&&(this.container.removeChild(this.fakeElem),this.fakeElem=null)}},{key:"selectTarget",value:function(){this.selectedText=(0,c.default)(this.target),this.copyText()}},{key:"copyText",value:function(){var e=void 0;try{e=document.execCommand(this.action)}catch(t){e=!1}this.handleResult(e)}},{key:"handleResult",value:function(t){this.emitter.emit(t?"success":"error",{action:this.action,text:this.selectedText,trigger:this.trigger,clearSelection:this.clearSelection.bind(this)})}},{key:"clearSelection",value:function(){this.trigger&&this.trigger.focus(),window.getSelection().removeAllRanges()}},{key:"destroy",value:function(){this.removeFake()}},{key:"action",set:function(){var t=0<arguments.length&&void 0!==arguments[0]?arguments[0]:"copy";if(this._action=t,"copy"!==this._action&&"cut"!==this._action)throw new Error('Invalid "action" value, use either "copy" or "cut"')},get:function(){return this._action}},{key:"target",set:function(t){if(void 0!==t){if(!t||"object"!==(void 0===t?"undefined":r(t))||1!==t.nodeType)throw new Error('Invalid "target" value, use a valid Element');if("copy"===this.action&&t.hasAttribute("disabled"))throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');if("cut"===this.action&&(t.hasAttribute("readonly")||t.hasAttribute("disabled")))throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');this._target=t}},get:function(){return this._target}}]),e}();t.exports=u},function(t,e){t.exports=function(t){var e;if("SELECT"===t.nodeName)t.focus(),e=t.value;else if("INPUT"===t.nodeName||"TEXTAREA"===t.nodeName){var n=t.hasAttribute("readonly");n||t.setAttribute("readonly",""),t.select(),t.setSelectionRange(0,t.value.length),n||t.removeAttribute("readonly"),e=t.value}else{t.hasAttribute("contenteditable")&&t.focus();var o=window.getSelection(),r=document.createRange();r.selectNodeContents(t),o.removeAllRanges(),o.addRange(r),e=o.toString()}return e}},function(t,e){function n(){}n.prototype={on:function(t,e,n){var o=this.e||(this.e={});return(o[t]||(o[t]=[])).push({fn:e,ctx:n}),this},once:function(t,e,n){var o=this;function r(){o.off(t,r),e.apply(n,arguments)}return r._=e,this.on(t,r,n)},emit:function(t){for(var e=[].slice.call(arguments,1),n=((this.e||(this.e={}))[t]||[]).slice(),o=0,r=n.length;o<r;o++)n[o].fn.apply(n[o].ctx,e);return this},off:function(t,e){var n=this.e||(this.e={}),o=n[t],r=[];if(o&&e)for(var i=0,a=o.length;i<a;i++)o[i].fn!==e&&o[i].fn._!==e&&r.push(o[i]);return r.length?n[t]=r:delete n[t],this}},t.exports=n},function(t,e,n){var d=n(5),h=n(6);t.exports=function(t,e,n){if(!t&&!e&&!n)throw new Error("Missing required arguments");if(!d.string(e))throw new TypeError("Second argument must be a String");if(!d.fn(n))throw new TypeError("Third argument must be a Function");if(d.node(t))return s=e,f=n,(l=t).addEventListener(s,f),{destroy:function(){l.removeEventListener(s,f)}};if(d.nodeList(t))return a=t,c=e,u=n,Array.prototype.forEach.call(a,function(t){t.addEventListener(c,u)}),{destroy:function(){Array.prototype.forEach.call(a,function(t){t.removeEventListener(c,u)})}};if(d.string(t))return o=t,r=e,i=n,h(document.body,o,r,i);throw new TypeError("First argument must be a String, HTMLElement, HTMLCollection, or NodeList");var o,r,i,a,c,u,l,s,f}},function(t,n){n.node=function(t){return void 0!==t&&t instanceof HTMLElement&&1===t.nodeType},n.nodeList=function(t){var e=Object.prototype.toString.call(t);return void 0!==t&&("[object NodeList]"===e||"[object HTMLCollection]"===e)&&"length"in t&&(0===t.length||n.node(t[0]))},n.string=function(t){return"string"==typeof t||t instanceof String},n.fn=function(t){return"[object Function]"===Object.prototype.toString.call(t)}},function(t,e,n){var a=n(7);function i(t,e,n,o,r){var i=function(e,n,t,o){return function(t){t.delegateTarget=a(t.target,n),t.delegateTarget&&o.call(e,t)}}.apply(this,arguments);return t.addEventListener(n,i,r),{destroy:function(){t.removeEventListener(n,i,r)}}}t.exports=function(t,e,n,o,r){return"function"==typeof t.addEventListener?i.apply(null,arguments):"function"==typeof n?i.bind(null,document).apply(null,arguments):("string"==typeof t&&(t=document.querySelectorAll(t)),Array.prototype.map.call(t,function(t){return i(t,e,n,o,r)}))}},function(t,e){if("undefined"!=typeof Element&&!Element.prototype.matches){var n=Element.prototype;n.matches=n.matchesSelector||n.mozMatchesSelector||n.msMatchesSelector||n.oMatchesSelector||n.webkitMatchesSelector}t.exports=function(t,e){for(;t&&9!==t.nodeType;){if("function"==typeof t.matches&&t.matches(e))return t;t=t.parentNode}}}])});
+</script>
 <head>
 <body>
+
+
+<section class="flex">
+	<h1 class="heading">
+		<span class="btn btn-warning">
+			BTCdv.com Nostr list 大V列表
+		</span>
+	</h1>
+	<ul class="list">
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1xv00thmc5qr02pcrmgss8z29dnn2x9yr5nszwf0sjzfqvkvk2l2qkvwsmg"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://ahr999.com/ahr999.jpg">@九神ahr999.com  </a><button class="nbtn" data-clipboard-text="npub1xv00thmc5qr02pcrmgss8z29dnn2x9yr5nszwf0sjzfqvkvk2l2qkvwsmg" onclick="this.innerHTML='已经复制npub';">点击复制npub,去各端粘贴引用（下方主要按ZAP量排序）</button></span><span class="list__item-zap"><a href="lightning:cndx@ahr999.com" target="_self">⚡999</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://cdn.jb55.com/img/red-me.jpg">@Will 🔮 </a><button class="nbtn" data-clipboard-text="npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s" onclick="this.innerHTML='已经复制npub';">【jb55@jb55.com】 npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s</button></span><span class="list__item-zap"><a href="lightning:jb55@sendsats.lol" target="_self">⚡30.7M</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://nostr.build/i/p/nostr.build_6b9909bccf0f4fdaf7aacd9bc01e4ce70dab86f7d90395f2ce925e6ea06ed7cd.jpeg">@jack </a><button class="nbtn" data-clipboard-text="npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m" onclick="this.innerHTML='已经复制npub';">npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m</button></span><span class="list__item-zap"><a href="lightning:winningblowgun86@walletofsatoshi.com" target="_self">⚡4.7M</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://i.postimg.cc/y8whz8Rm/D6-BC5806-FFAA-42-D2-8-EC9-B46131-B3-F646.jpg">@William </a><button class="nbtn" data-clipboard-text="npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew" onclick="this.innerHTML='已经复制npub';">【william@nostrich.land】 npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew</button></span><span class="list__item-zap"><a href="lightning:lyricalneck66@walletofsatoshi.com" target="_self">⚡99k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://i03piccdn.sogoucdn.com/c1d921666cd4e0af">爱花@aihua </a><button class="nbtn" data-clipboard-text="npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz" onclick="this.innerHTML='已经复制npub';">【aihua@nostrich.land】 npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz</button></span><span class="list__item-zap"><a href="lightning:milkydigital30@walletofsatoshi.com" target="_self">⚡56k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://nostr.build/i/nostr.build_328b9ead692352354f3bdc9ef0732583be0795c613ad093ff3106a444f64df85.jpg">@aLE  </a><button class="nbtn" data-clipboard-text="npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67" onclick="this.innerHTML='已经复制npub';">npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67</button></span><span class="list__item-zap"><a href="lightning:ale@getalby.com" target="_self">⚡55k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub134lfcqtw0rwzpey20suye7gjxep2ts6lhqemp7c4zhxe8jsj24wqqzelwh"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://nostr.build/i/nostr.build_3dad06b02fbf50c99904116e4e4ae233dbcf31b410c26059b0038000b0e50b96.png">@xiangcai  </a><button class="nbtn" data-clipboard-text="npub134lfcqtw0rwzpey20suye7gjxep2ts6lhqemp7c4zhxe8jsj24wqqzelwh" onclick="this.innerHTML='已经复制npub';">【xiangcai@nostrplebs.com】 npub134lfcqtw0rwzpey20suye7gjxep2ts6lhqemp7c4zhxe8jsj24wqqzelwh</button></span><span class="list__item-zap"><a href="lightning:hawkishhill48@walletofsatoshi.com" target="_self">⚡28k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw"><img class="tx" src="https://8nostr.com/cndx/">玛雅@cndx  </a><button class="nbtn" data-clipboard-text="npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw" onclick="this.innerHTML='已经复制npub';">【cndx@btcdv.com】 npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw</button></span><span class="list__item-zap"><a href="lightning:cndx@btcdv.com" target="_self">⚡21k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://welkinhere.github.io/Resources/github-avatar.jpg">@welkin </a><button class="nbtn" data-clipboard-text="npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g" onclick="this.innerHTML='已经复制npub';">【welkin@welkinhere.github.io】 npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g</button></span><span class="list__item-zap"><a href="lightning:waspishadult93@walletofsatoshi.com" target="_self">⚡15k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1fpjdge9uj7sfwscw5mgsrqwt6dxytxykh9lkyg8dgwzyly76d9ssfkxvc3"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://robohash.org/bitcoinstate">@bitcoinstate  </a><button class="nbtn" data-clipboard-text="npub1fpjdge9uj7sfwscw5mgsrqwt6dxytxykh9lkyg8dgwzyly76d9ssfkxvc3" onclick="this.innerHTML='已经复制npub';">npub1fpjdge9uj7sfwscw5mgsrqwt6dxytxykh9lkyg8dgwzyly76d9ssfkxvc3</button></span><span class="list__item-zap"><a href="lightning:waspishadult93@walletofsatoshi.com" target="_self">⚡10k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1recxqywfx2aphqqd22rujxjj0urqsghgsk8xdtrkal7e0s20067swludg8"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://nostr.build/i/nostr.build_47ce3faa48220999dbc5709b905e6efbb62b85ba9048c61cbf906bff871a87d0.jpeg">@SY  </a><button class="nbtn" data-clipboard-text="npub1recxqywfx2aphqqd22rujxjj0urqsghgsk8xdtrkal7e0s20067swludg8" onclick="this.innerHTML='已经复制npub';">npub1recxqywfx2aphqqd22rujxjj0urqsghgsk8xdtrkal7e0s20067swludg8</button></span><span class="list__item-zap"><a href="lightning:bitcoinnostr@walletofsatoshi.com" target="_self">⚡7k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1mvgmxgqfmy2d6a4ajp9c5cmxylgajppl9f8eajhk4tu96pw977hsmwh70c"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://23img.com/i/2023/01/02/s7ci95.jpg">@YGLS  </a><button class="nbtn" data-clipboard-text="npub1mvgmxgqfmy2d6a4ajp9c5cmxylgajppl9f8eajhk4tu96pw977hsmwh70c" onclick="this.innerHTML='已经复制npub';">npub1mvgmxgqfmy2d6a4ajp9c5cmxylgajppl9f8eajhk4tu96pw977hsmwh70c</button></span><span class="list__item-zap"><a href="lightning:taperedrice65@walletofsatoshi.com" target="_self">⚡6k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1ss2ndfhhsk6frk7sfucqhe7flr6um0dj24yelxlf0h0dhtk8m9qs4t6j68">
+<img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://i.postimg.cc/v8xZXy37/image.jpg">刺猬@ciwei  </a><button class="nbtn" data-clipboard-text="npub1ss2ndfhhsk6frk7sfucqhe7flr6um0dj24yelxlf0h0dhtk8m9qs4t6j68" onclick="this.innerHTML='已经复制npub';">【ciwei@nostr.fan】npub1ss2ndfhhsk6frk7sfucqhe7flr6um0dj24yelxlf0h0dhtk8m9qs4t6j68</button></span><span class="list__item-zap"><a href="lightning:ciwei241@getalby.com" target="_self">⚡3k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://www.libravatar.org/avatar/c1b6f3b4daab9514741d3ed2835fe023?d=wavatar&s=480">竹叶散人@zysr  </a><button class="nbtn" data-clipboard-text="npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx" onclick="this.innerHTML='已经复制npub';">【zysr@relay.fan】npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx</button></span><span class="list__item-zap"><a href="lightning:zysr@getalby.com" target="_self">⚡2k</a></span>
+		</li>
+		<li class="list__item">
+			<span class="list__item-text"><a href="https://nostrurl.com/?q=npub1fus33cfyw7ffrmhhrf8mmlp5trjhp8vwlndegxl4fn3qjn5cwu5snya2ga"><img class="tx" src="https://imgproxy.iris.to/insecure/rs:fill:80:80/plain/https://nostr.build/i/nostr.build_3501e9ead317bbe0285b6134ce40af9253fac2c15ab4588bd47acf7c8e572de3.jpg">@Haha  </a><button class="nbtn" data-clipboard-text="npub1fus33cfyw7ffrmhhrf8mmlp5trjhp8vwlndegxl4fn3qjn5cwu5snya2ga" onclick="this.innerHTML='已经复制npub';">npub1fus33cfyw7ffrmhhrf8mmlp5trjhp8vwlndegxl4fn3qjn5cwu5snya2ga</button></span><span class="list__item-zap"><a href="lightning:haha@getalby.com" target="_self">⚡2k</a></span>
+		</li>
+	</ul>
+	<script>
+	var clipboard= new ClipboardJS(".nbtn");
+    clipboard.on("success",function (element) { 
+	console.log(element);
+	//document.getElementById('id_copy966').innerHTML="复制成功，打开手机淘宝";
+	});
+	</script>
+</section>
 <div id="toolbar">
-  <button id="remove" class="btn btn-danger" disabled>
+  <button id="remove" class="btn btn-info" disabled>
 <b>饼</b><img src="btcdv.png" />BTCdv.com
   </button>
 </div>
+
 <table
   id="table"
   data-toolbar="#toolbar"
@@ -199,6 +368,20 @@ var _hmt = _hmt || [];
     initTable()
     $('#locale').change(initTable)
   })
+</script>
+<script>
+r=100;g=160;b=100;
+r1=r+Math.floor(Math.random()*(255-r));
+g1=g+Math.floor(Math.random()*(255-g));
+b1=b+Math.floor(Math.random()*(255-b));
+r2=r+Math.floor(Math.random()*(255-r));
+g2=g+Math.floor(Math.random()*(255-g));
+b2=b+Math.floor(Math.random()*(255-b));
+r3=r+Math.floor(Math.random()*(255-r));
+g3=g+Math.floor(Math.random()*(255-g));
+b3=b+Math.floor(Math.random()*(255-b));
+background="white linear-gradient(120deg,rgb("+r1+", "+g1+", "+b1+"),rgb("+r2+", "+g2+", "+b2+"),rgb("+r3+","+g2+", "+b3+"))";
+document.body.style.background=background;
 </script>
 </body>
 </html>
