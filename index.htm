@@ -1,0 +1,204 @@
+<html>
+<head>
+   <title>₿饼大V信息 BTCdv.com</title>
+   <link rel="shortcut icon" href="btcdv.png" type="image/png">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=0.8">
+   <link href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<!--https://use.fontawesome.com/releases/v5.6.3/css/all.cs s-->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css">
+<script src="https://lib.sinaapp.com/js/jquery/2.2.4/jquery-2.2.4.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+<base target="_blank" />
+<style>
+  .select,
+  #locale {
+    width: 100%;
+  }
+  .like {
+    margin-right: 10px;
+  }
+</style>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c65dd7d15ecfb3a23baf04543045f8b8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<head>
+<body>
+<div id="toolbar">
+  <button id="remove" class="btn btn-danger" disabled>
+<b>饼</b><img src="btcdv.png" />BTCdv.com
+  </button>
+</div>
+<table
+  id="table"
+  data-toolbar="#toolbar"
+  data-search="true"
+  data-show-refresh="true"
+  data-show-toggle="true"
+  data-show-fullscreen="true"
+  data-show-columns="true"
+  data-show-columns-toggle-all="false"
+  data-detail-view="true"
+  data-show-export="false"
+  data-click-to-select="true"
+  data-detail-formatter="detailFormatter"
+  data-minimum-count-columns="2"
+  data-show-pagination-switch="true"
+  data-pagination="false"
+  data-id-field="id"
+  data-page-list="[20, 50, 100, all]"
+  data-show-footer="false"
+  data-side-pagination="serverx"
+  data-url="data.json"
+  data-response-handler="responseHandler">
+</table>
+
+<script>
+  var $table = $('#table')
+  var $remove = $('#remove')
+  var selections = []
+
+  function getIdSelections() {
+    return $.map($table.bootstrapTable('getSelections'), function (row) {
+      return row.id
+    })
+  }
+
+  function responseHandler(res) {
+    $.each(res.rows, function (i, row) {
+      row.state = $.inArray(row.id, selections) !== -1
+    })
+    return res
+  }
+
+  function detailFormatter(index, row) {
+    var html = []
+    $.each(row, function (key, value) {
+      html.push('<p><b>' + key + ':</b> ' + value + '</p>')
+    })
+    return html.join('')
+  }
+//javascript:alert("在完善中...")
+  function operateFormatter(value, row, index) {
+    return [
+      '<a class="like" target="_self"  href="javascript:void(0)" title="Like">',
+      '<i class="fa fa-heart"></i>',
+      '</a>  ',
+      '<a class="remove" target="_self" href="javascript:void(0)" title="Remove">',
+      '<i class="fa fa-eraser"></i>',
+      '</a>'
+    ].join('')
+  }
+
+  window.operateEvents = {
+    'click .like': function (e, value, row, index) {
+      alert('谢谢您的喜爱和点赞。联系jdoge.com提建议，You click like action, row: ' + JSON.stringify(row))
+    },
+    'click .remove': function (e, value, row, index) {
+      $table.bootstrapTable('remove', {
+        field: 'id',
+        values: [row.id]
+      })
+    }
+  }
+
+  function totalTextFormatter(data) {
+    return 'Total'
+  }
+
+  function totalNameFormatter(data) {
+    return data.length
+  }
+
+  function totalPriceFormatter(data) {
+    var field = this.field
+    return '$' + data.map(function (row) {
+      return +row[field].substring(1)
+    }).reduce(function (sum, i) {
+      return sum + i
+    }, 0)
+  }
+
+  function initTable() {
+    $table.bootstrapTable('destroy').bootstrapTable({
+      height: 6500,
+      locale: $('#locale').val(),
+      columns: [
+        [{
+          field: 'state',
+          checkbox: true,
+          rowspan: 2,
+          align: 'center',
+          valign: 'middle'
+        }, {
+          title: '短ID',
+          field: 'id',
+          rowspan: 2,
+          align: 'center',
+          valign: 'middle',
+          sortable: true,
+          footerFormatter: totalTextFormatter
+        }, {
+          title: '<a href=https://bitcoinall.org/>₿all</a><a href=https://idgui.com/n>脑</a><a href=https://wiccm.com/btcdv.com/nostr> </a><a href=https://8nostr.com><b>8⛓️.com导航</b></a> <a href=https://dogefei.com>【加群】</a> <a href=https://nostrurl.com><b>⛓️url资源</b></a> <a href=https://pan.baidu.com/s/1V-TA-o4230Ypt8xqgxjqOw?pwd=doge>软件</a> <a href=https://8nostr.com/cndx@ahr999.com>☯️</a> <a href=https://iris.to><b>[●iris.to</b>]</a>',
+          colspan: 3,
+          align: 'center'
+        }],
+        [{
+          field: 'name',
+          title: '微博推特及NOSTR⚡',
+          sortable: true,
+          footerFormatter: totalNameFormatter,
+          align: 'center'
+        }, {
+          field: 'price',
+          title: '粉量(万)',
+          sortable: true,
+          align: 'center',
+          footerFormatter: totalPriceFormatter
+        }, {
+          field: 'operate',
+          title: '',
+          align: 'center',
+          clickToSelect: false,
+          events: window.operateEvents,
+          formatter: operateFormatter
+        }]
+      ]
+    })
+    $table.on('check.bs.table uncheck.bs.table ' +
+      'check-all.bs.table uncheck-all.bs.table',
+    function () {
+      $remove.prop('disabled', !$table.bootstrapTable('getSelections').length)
+
+      // save your data, here just save the current page
+      selections = getIdSelections()
+      // push or splice the selections if you want to save all data selections
+    })
+    $table.on('all.bs.table', function (e, name, args) {
+      console.log(name, args)
+    })
+    $remove.click(function () {
+      var ids = getIdSelections()
+      $table.bootstrapTable('remove', {
+        field: 'id',
+        values: ids
+      })
+      $remove.prop('disabled', true)
+    })
+  }
+
+  $(function() {
+    initTable()
+    $('#locale').change(initTable)
+  })
+</script>
+</body>
+</html>
