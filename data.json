@@ -33,24 +33,34 @@
       "price": "0.1"
     },
 	{
-      "id": "BTC",
-      "name": "<a href='https://weibo.com/u/7331627378'>@超级冰糖橙</a> <a href='https://twitter.com/Super4DeFi'><b>@Super4DeFi</b></a>  <a href='https://nostrurl.com/?q=npub16a7m863zhkzpd5ezzkz08rlr900eateap5dwamynssysdv6hhhqsctuk9g'>[⛓️]</a> <a href='https://iris.to/npub16a7m863zhkzpd5ezzkz08rlr900eateap5dwamynssysdv6hhhqsctuk9g'>[●]</a>",
-      "price": "5.3"
-    },
-	{
       "id": "4H",
       "name": "<a href='https://weibo.com/238878996'>@TumbleBit</a> <a href='https://twitter.com/2040yyds'><b>@2040yyds</b></a>​​​  <a href='https://nostrurl.com/?q=npub156etfp73lfc2ax0ekj557sezuag0sjzdqhljm4v9tmda62nev4rqrtug7y'>[⛓️]</a> <a href='https://iris.to/npub156etfp73lfc2ax0ekj557sezuag0sjzdqhljm4v9tmda62nev4rqrtug7y'>[●]</a>",
       "price": "11"
     },
 	{
-      "id": "aLE",
-      "name": "<a href='https://iris.to/ale@nostrpurple.com'><b>@aLE</b></a> <a href='https://nostr.band/?q=npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>[Band]</a>  <a href='https://8nostr.com/ale@nostrpurple.com'>☯️</a> <a href='https://iris.to/npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>[●]</a> <a href='lightning:ale@getalby.com'>[⚡]</a>",
-      "price": "0.2"
+      "id": "AIHUA",
+      "name": "<a href='https://iris.to/aihua'>爱花@aihua</a>  <a href='https://8nostr.com/aihua@nostrich.land'>☯️</a> <a href='https://iris.to/npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz'>[●]</a> <a href='lightning:milkydigital30@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0.08"
+    },
+	{
+      "id": "Vitor",
+      "name": "<a href='https://iris.to/vitor@vitorpamplona.com'>@Vitor️</a> <a href='https://github.com/vitorpamplona/amethyst/releases/'>Amethyst</a> <a href='https://8nostr.com/vitor@vitorpamplona.com'>☯️</a> <a href='https://iris.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z'>[●]</a> <a href='lightning:vitorpamplona@strike.army'>[⚡]</a>",
+      "price": "0.7"
     },
 	{
       "id": "Will",
       "name": "<a href='https://iris.to/jb55@jb55.com'>Will 🔮⚡️</a> <a href='https://jb55.com'><b>jb55.com</b></a> <a href='https://damus.io'>damus</a> <a href='https://8nostr.com/jb55@jb55.com'>☯️</a> <a href='https://iris.to/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>[●]</a> <a href='lightning:jb55@sendsats.lol'>[⚡]</a>",
-      "price": "7.5"
+      "price": "10.9"
+    },
+	{
+      "id": "WL",
+      "name": "<a href='https://weibo.com/u/6476746438'>@Metaverse陳威廉</a> <a href='https://twitter.com/William11Chan'><b>@William11Chan</b></a>  <a href='https://nostrurl.com/?q=npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>[⛓️]</a> <a href='https://8nostr.com/william@nostrich.land'>☯️</a> <a href='https://iris.to/npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>[●]</a> <a href='lightning:lyricalneck66@walletofsatoshi.com'>[⚡]</a>",
+      "price": "13"
+    },
+	{
+      "id": "aLE",
+      "name": "<a href='https://iris.to/ale@nostrpurple.com'><b>@aLE</b></a> <a href='https://nostr.band/?q=npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>[Band]</a>  <a href='https://8nostr.com/ale@nostrpurple.com'>☯️</a> <a href='https://iris.to/npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>[●]</a> <a href='lightning:ale@getalby.com'>[⚡]</a>",
+      "price": "0.2"
     },
 	{
       "id": "ODELL",
@@ -93,18 +103,18 @@
       "price": "0.08"
     },
 	{
-      "id": "Ṛsi",
+      "id": "BTC",
+      "name": "<a href='https://iris.to/npub1g8s69fj2ss6ru5whuee9uwvv67e0thmkw3ue6n5ajw3a7axa6vqsh30hex'>竹叶散人</a>    <a href='https://nostrurl.com/?q=npub1g8s69fj2ss6ru5whuee9uwvv67e0thmkw3ue6n5ajw3a7axa6vqsh30hex'>[⛓️]</a> <a href='https://iris.to/npub1g8s69fj2ss6ru5whuee9uwvv67e0thmkw3ue6n5ajw3a7axa6vqsh30hex'>[●]</a> <a href='lightning:btclib@getalby.com'>[⚡]</a>",
+      "price": "0.08"
+    },
+	{
+      "id": "ZYSR",
       "name": "<a href='https://iris.to/zysr@relay.fane'>竹叶散人</a>    <a href='https://nostrurl.com/?q=npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx'>[⛓️]</a> <a href='https://iris.to/npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx'>[●]</a> <a href='lightning:zysr@getalby.com'>[⚡]</a>",
       "price": "0.08"
     },
 	{
       "id": "Violet",
       "name": "<a href='https://iris.to/npub1n63dpng09ftcz5m0w2r2yj4j2j3uktc57hv049d0ky4433ftuymslw59wf'>Violet Evergarden@violetevergarden</a>    <a href='https://nostrurl.com/?q=npub1n63dpng09ftcz5m0w2r2yj4j2j3uktc57hv049d0ky4433ftuymslw59wf'>[⛓️]</a> <a href='https://iris.to/npub1n63dpng09ftcz5m0w2r2yj4j2j3uktc57hv049d0ky4433ftuymslw59wf'>[●]</a> <a href='lightning:skimpyswamp63@walletofsatoshi.com'>[⚡]</a>",
-      "price": "0.08"
-    },
-	{
-      "id": "AIHUA",
-      "name": "<a href='https://iris.to/aihua'>爱花@aihua</a>  <a href='https://8nostr.com/aihua@nostrich.land'>☯️</a> <a href='https://iris.to/npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz'>[●]</a> <a href='lightning:milkydigital30@walletofsatoshi.com'>[⚡]</a>",
       "price": "0.08"
     },
 	{
@@ -128,6 +138,11 @@
       "price": "16"
     },
 	{
+      "id": "BTC",
+      "name": "<a href='https://weibo.com/u/7331627378'>@超级冰糖橙</a> <a href='https://twitter.com/Super4DeFi'><b>@Super4DeFi</b></a>  <a href='https://nostrurl.com/?q=npub16a7m863zhkzpd5ezzkz08rlr900eateap5dwamynssysdv6hhhqsctuk9g'>[⛓️]</a> <a href='https://iris.to/npub16a7m863zhkzpd5ezzkz08rlr900eateap5dwamynssysdv6hhhqsctuk9g'>[●]</a>",
+      "price": "5.3"
+    },
+	{
       "id": "STR",
       "name": "<a href='https://iris.to/strick'>strick@iris.to</a>  <a href='https://nostrurl.com/?q=npub15n4yau07kv2asacnteut7jnzy3ke2cwcc3vcvrzhkwr4pqa3v7xqrngqfv'>[⛓️]</a> <a href='https://iris.to/npub15n4yau07kv2asacnteut7jnzy3ke2cwcc3vcvrzhkwr4pqa3v7xqrngqfv'>[●]</a> <a href='lightning:strick@getalby.com'>[⚡]</a>",
       "price": "0.05"
@@ -146,11 +161,6 @@
       "id": "XY",
       "name": "<a href='https://weibo.com/tylerxiong'>@熊越TylertheAustrian</a>  <a href='https://twitter.com/XiongTylerYue'><b>@XiongTylerYue</b></a>  <a href='https://nostrurl.com/?q=npub1rsg3xkte3zyrn3m0jg0gwh2jpfszry0kfzew7q9tq5yq8sqjh9nquuas8t'>[⛓️]</a> <a href='https://iris.to/npub1rsg3xkte3zyrn3m0jg0gwh2jpfszry0kfzew7q9tq5yq8sqjh9nquuas8t'>[●]</a> <a href='lightning:tcgyinyang@ln.tips'>[⚡]</a>",
       "price": "32"
-    },
-	{
-      "id": "WL",
-      "name": "<a href='https://weibo.com/u/6476746438'>@Metaverse陳威廉</a> <a href='https://twitter.com/William11Chan'><b>@William11Chan</b></a>  <a href='https://nostrurl.com/?q=npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>[⛓️]</a> <a href='https://8nostr.com/william@nostrich.land'>☯️</a> <a href='https://iris.to/npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>[●]</a> <a href='lightning:lyricalneck66@walletofsatoshi.com'>[⚡]</a>",
-      "price": "13"
     },
 	{
       "id": "BTC",
@@ -173,8 +183,28 @@
       "price": "0.09"
     },
 	{
-      "id": "nostr",
+      "id": "nodez",
+      "name": "<a href='https://iris.to/nodez@nostrich.land'>@Node Z </a>  <a href='https://nostrurl.com/?q=npub17ryxfn6h8hshzpfmaaxl8vcuvkfnx7sf07aanusd0pgxujgvddjq7y9shm'>[⛓️]</a>  <a href='https://iris.to/npub17ryxfn6h8hshzpfmaaxl8vcuvkfnx7sf07aanusd0pgxujgvddjq7y9shm'>[●]</a> <a href='lightning:0x717bd60036c64242@ln.tips'>[⚡]</a>",
+      "price": "0.02"
+    },
+	{
+      "id": "WK",
       "name": "<a href='https://iris.to/welkin@welkinhere.github.io'>@welkin</a>  <a href='https://nostrurl.com/?q=npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g'>[⛓️]</a>  <a href='https://iris.to/npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g'>[●]</a> <a href='lightning:dualtray45@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0.02"
+    },
+	{
+      "id": "CL",
+      "name": "<a href='https://iris.to/npub19l03suyl2h40ym3zhscrseh346ug3u22ptt88syps27hj9vfqfxq3ykck2'>@Crypto Life</a>  <a href='https://nostrurl.com/?q=npub19l03suyl2h40ym3zhscrseh346ug3u22ptt88syps27hj9vfqfxq3ykck2'>[⛓️]</a>  <a href='https://iris.to/npub19l03suyl2h40ym3zhscrseh346ug3u22ptt88syps27hj9vfqfxq3ykck2'>[●]</a> <a href='lightning:glaringevening12@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0.02"
+    },
+	{
+      "id": "DS",
+      "name": "<a href='https://iris.to/npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk'>@DASHU</a>  <a href='https://nostrurl.com/?q=npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk'>[⛓️]</a>  <a href='https://iris.to/npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk'>[●]</a> <a href='lightning:brazenicicle82@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0.02"
+    },
+	{
+      "id": "ZT",
+      "name": "<a href='https://iris.to/npub100lwgwshxc8xjm8tjtn4lc5jh2mum62908x9nnmhs3a6qsnplt5qfsrj7u'>@Zhongtian</a>  <a href='https://nostrurl.com/?q=npub100lwgwshxc8xjm8tjtn4lc5jh2mum62908x9nnmhs3a6qsnplt5qfsrj7u'>[⛓️]</a>  <a href='https://iris.to/npub100lwgwshxc8xjm8tjtn4lc5jh2mum62908x9nnmhs3a6qsnplt5qfsrj7u'>[●]</a> <a href='lightning:woozyfriday28@walletofsatoshi.com'>[⚡]</a>",
       "price": "0.02"
     },
 	{
@@ -216,6 +246,11 @@
       "id": "ZZ",
       "name": "<a href='https://iris.to/proton@nostrplebs.com'>智子⚡️@proton</a>  <a href='https://8nostr.com/proton@nostrplebs.com'>☯️</a>  <a href='https://iris.to/npub15tvl09jxrcujd6pddlczvcd7tlzh60tt8vcmd2hhvdzdhq5quvcs7nnc0q'>[●]</a> <a href='lightning:validexample88@walletofsatoshi.com'>[⚡]</a>",
       "price": "0.11"
+    },
+	{
+      "id": "WILL",
+      "name": "<a href='https://iris.to/npub153s3xg36mkakq7q6ne32xt836krgegj3waddez630vu57ejkwu8qvzznj7'>@Haha</a>  <a href='https://nostrurl.com/?q=npub153s3xg36mkakq7q6ne32xt836krgegj3waddez630vu57ejkwu8qvzznj7'>[⛓️]</a> <a href='https://iris.to/npub153s3xg36mkakq7q6ne32xt836krgegj3waddez630vu57ejkwu8qvzznj7'>[●]</a> <a href='lightning:coolestspring19@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0.03"
     },
 	{
       "id": "HAHA",
