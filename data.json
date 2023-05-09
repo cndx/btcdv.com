@@ -792,11 +792,250 @@
       "id": "BTC",
       "name": "<a href='https://weibo.com/u/1880080695'>@Crypto一为</a>",
       "price": "1.8"
-    },
-	{
-      "id": "Cndx",
-      "name": "<a href='https://weibo.com/u/7786881657'>@玛雅idgui</a> <a href='http://dogefei.com'><b>群</b></a> <a href='https://twitter.com/Maya_idguiCom'><b>@Maya_idguiCom</b></a>  <a href='https://nostrurl.com/?q=npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw'>[⛓️]</a> <a href='https://iris.to/npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw'>[●]</a> <a href='lightning:cndx@nostrurl.com'>[⚡]</a>",
-      "price": "0.1"
+    },{
+      "id": "JACK",
+      "name": "<a href='https://8nostr.com/jack@cash.app'>@jack</a><a href='https://twitter.com/jack'><b>@jack</b></a><a href='https://badges.page/p/82341f882b6eabcd2ba7f1ef90aad961cf074af15b9ef44a09f9d2a8fbfbe6a2'>[⚛️</a><a href='https://nostr.band/?q=npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m'>NB</a><a href='https://nostrurl.com/?q=npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m'>☯️]</a><a href='lightning:winningblowgun86@walletofsatoshi.com'>[⚡]</a>",
+      "price": "5642233"
+    }
+,{
+      "id": "CNDX",
+      "name": "<a href='https://8nostr.com/cndx@btcdv.com'>玛雅idgui@cndx</a><a href='https://weibo.com/u/6201946577'><b>微</b></a><a href='http://dogefei.com'> </a><a href='https://twitter.com/Maya_idguiCom'>@Maya</a><a href='https://badges.page/p/d34110060782337c8864ff76321a821f2dbbcfb0bb33864b1cc48712abd84a80'>[⚛️</a><a href='https://nostr.band/?q=npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw'>NB</a><a href='https://nostrurl.com/?q=npub16dq3qps8sgehezrylamryx5zrukmhnashvecvjcucjr3927cf2qqd8evcw'>☯️]</a><a href='lightning:cndx@getalby.com'>[⚡]</a>",
+      "price": "236383"
+    }
+,{
+      "id": "0",
+      "name": "<a href='https://8nostr.com/0@NostrURL.com'>@0</a><a href='https://ahr999.com/'><b>公开空脑口令</b></a><a href='https://badges.page/p/a34b99f22c790c4e36b2b3c2c35a36db06226e41c692fc82b8b56ac1c540c5bd'>[⚛️</a><a href='https://nostr.band/?q=npub15d9enu3v0yxyud4jk0pvxk3kmvrzymjpc6f0eq4ck44vr32qck7smrxq6k'>NB</a><a href='https://nostrurl.com/?q=npub15d9enu3v0yxyud4jk0pvxk3kmvrzymjpc6f0eq4ck44vr32qck7smrxq6k'>☯️]</a><a href='lightning:cndx@getalby.com'>[⚡]</a>",
+      "price": "995"
+    }
+,{
+      "id": "YIKE",
+      "name": "<a href='https://8nostr.com/yike@btc.pics'>eva1470@yike</a><a href='https://weibo.com/u/7621157520'><b>@异客守望</b></a> <a href='https://twitter.com/bitcoinyike'>@bitcoinyike</a><a href='https://badges.page/p/d0f149a32bc3b85e9ec4531d32f553bbd40143c214458e0b3dbc3b862d2eeea7'>[⚛️</a><a href='https://nostr.band/?q=npub16rc5ngetcwu9a8ky2vwn9a2nh02qzs7zz3zcuzeahsacvtfwa6nsn9jcg3'>NB</a><a href='https://nostrurl.com/?q=npub16rc5ngetcwu9a8ky2vwn9a2nh02qzs7zz3zcuzeahsacvtfwa6nsn9jcg3'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "143"
+    }
+,{
+      "id": "ZYSR",
+      "name": "<a href='https://8nostr.com/zysr@relay.fan'>竹叶散人@zysr</a><a href='https://badges.page/p/69dfcf1cf5be81090d9d95314ffb81e0230b9f569d350cb2babe608d4faaf3b0'>[⚛️</a><a href='https://nostr.band/?q=npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx'>NB</a><a href='https://nostrurl.com/?q=npub1d80u7884h6qsjrvaj5c5l7upuq3sh86kn56sev46hesg6na27wcq62tflx'>☯️]</a><a href='lightning:zysr@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "ZT",
+      "name": "<a href='https://8nostr.com/zhongtian@btcdv.com'>@zhongtian</a><a href='https://badges.page/p/7bfee43a17360e696ceb92e75fe292bab7cde94579cc59cf77847ba04261fae8'>[⚛️</a><a href='https://nostr.band/?q=npub100lwgwshxc8xjm8tjtn4lc5jh2mum62908x9nnmhs3a6qsnplt5qfsrj7u'>NB</a><a href='https://nostrurl.com/?q=npub100lwgwshxc8xjm8tjtn4lc5jh2mum62908x9nnmhs3a6qsnplt5qfsrj7u'>☯️]</a><a href='lightning:woozyfriday28@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/welkin@welkinhere.github.io'>@welkin</a><a href='https://badges.page/p/2aab5394ca7667c40e689397f6e5b1928a3b29291fb35ece2c7f12242e8673e3'>[⚛️</a><a href='https://nostr.band/?q=npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g'>NB</a><a href='https://nostrurl.com/?q=npub1924489x2wenugrngjwtlded3j29rk2ffr7e4an3v0ufzgt5xw03s3st05g'>☯️]</a><a href='lightning:waspishadult93@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "BTC",
+      "name": "<a href='https://8nostr.com/bitcoinstate@btcdv.com'>@bitcoinstate</a><a href='https://badges.page/p/4864d464bc97a097430ea6d10181cbd34c459896b97f6220ed43844f93da6961'>[⚛️</a><a href='https://nostr.band/?q=npub1fpjdge9uj7sfwscw5mgsrqwt6dxytxykh9lkyg8dgwzyly76d9ssfkxvc3'>NB</a><a href='https://nostrurl.com/?q=npub1fpjdge9uj7sfwscw5mgsrqwt6dxytxykh9lkyg8dgwzyly76d9ssfkxvc3'>☯️]</a><a href='lightning:waspishadult93@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Vitor",
+      "name": "<a href='https://8nostr.com/vitor@vitorpamplona.com'>@Vitor</a><a href='https://badges.page/p/460c25e682fda7832b52d1f22d3d22b3176d972f60dcdc3212ed8c92ef85065c'>[⚛️</a><a href='https://nostr.band/?q=npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z'>NB</a><a href='https://nostrurl.com/?q=npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z'>☯️]</a><a href='lightning:vitorpamplona@strike.army'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "YGLS",
+      "name": "<a href='https://8nostr.com/doctoryyq@iris.to'>YGLS@ygls</a><a href='https://badges.page/p/db11b32009d914dd76bd904b8a636627d1d9043f2a4f9ecaf6aaf85d05c5f7af'>[⚛️</a><a href='https://nostr.band/?q=npub1mvgmxgqfmy2d6a4ajp9c5cmxylgajppl9f8eajhk4tu96pw977hsmwh70c'>NB</a><a href='https://nostrurl.com/?q=npub1mvgmxgqfmy2d6a4ajp9c5cmxylgajppl9f8eajhk4tu96pw977hsmwh70c'>☯️]</a><a href='lightning:taperedrice65@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/xbologg@nanostr.deno.dev'>@xbolo</a><a href='https://badges.page/p/7aabf4a15df15074deeffdb597e6be54be4a211cbd6303436cb1ccea6c9cf87b'>[⚛️</a><a href='https://nostr.band/?q=npub1024lfg2a79g8fhh0lk6e0e472jly5gguh43sxsmvk8xw5myulpasn4pl76'>NB</a><a href='https://nostrurl.com/?q=npub1024lfg2a79g8fhh0lk6e0e472jly5gguh43sxsmvk8xw5myulpasn4pl76'>☯️]</a><a href='lightning:salientslope34@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/ofyzh@btcdv.com'>@Ofyzh</a><a href='https://badges.page/p/ac3c25c4699ed9b98eac23fd44319c8996258251b661101238bae4fd3867c293'>[⚛️</a><a href='https://nostr.band/?q=npub14s7zt3rfnmvmnr4vy075gvvu3xtztqj3kes3qy3chtj06wr8c2fsxerjw3'>NB</a><a href='https://nostrurl.com/?q=npub14s7zt3rfnmvmnr4vy075gvvu3xtztqj3kes3qy3chtj06wr8c2fsxerjw3'>☯️]</a><a href='lightning:ofzyh@ln.tips'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "WGCG",
+      "name": "<a href='https://8nostr.com/wasp@iris.to'>围观吃瓜@莫谈国事</a><a href='https://badges.page/p/6d088b653a1bffe728b9b17e5c7afcfc18d85f70502feac83400524eb6a8d5e9'>[⚛️</a><a href='https://nostr.band/?q=npub1d5ygkef6r0l7w29ek9l9c7hulsvdshms2qh74jp5qpfyad4g6h5s4ap6lz'>NB</a><a href='https://nostrurl.com/?q=npub1d5ygkef6r0l7w29ek9l9c7hulsvdshms2qh74jp5qpfyad4g6h5s4ap6lz'>☯️]</a><a href='lightning:ninthmass47@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "AIHUA",
+      "name": "<a href='https://8nostr.com/aihua@iris.to'>爱花@aihua</a><a href='https://badges.page/p/53a8392e971b46326e3d0f8967db17c4f7cca4d42be979b1664124c8f69af528'>[⚛️</a><a href='https://nostr.band/?q=npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz'>NB</a><a href='https://nostrurl.com/?q=npub12w5rjt5hrdrrym3ap7yk0kchcnmuefx5905hnvtxgyjv3a56755qx6u7fz'>☯️]</a><a href='lightning:milkydigital30@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "WL",
+      "name": "<a href='https://8nostr.com/william@nostrich.land'>@william</a><a href='https://badges.page/p/649eefe468ddb107c05eba6d0511d2a5298540fe4d5f0072b00636008fc72f92'>[⚛️</a><a href='https://nostr.band/?q=npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>NB</a><a href='https://nostrurl.com/?q=npub1vj0wlergmkcs0sz7hfks2ywj555c2s87f40squ4sqcmqpr7897fqn6mfew'>☯️]</a><a href='lightning:lyricalneck66@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "WILL",
+      "name": "<a href='https://8nostr.com/jb55@jb55.com'>Will@jb55</a><a href='https://badges.page/p/32e1827635450ebb3c5a7d12c1f8e7b2b514439ac10a67eef3d9fd9c5c68e245'>[⚛️</a><a href='https://nostr.band/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>NB</a><a href='https://nostrurl.com/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>☯️]</a><a href='lightning:jb55@sendsats.lol'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "STX",
+      "name": "<a href='https://8nostr.com/stonexia@iris.to'>石头@StoneXia</a><a href='https://badges.page/p/ba8d60f60e55142c5ab75764d844ef141182cfb96f9ed8a1e09907971f4332b7'>[⚛️</a><a href='https://nostr.band/?q=npub1h2xkpasw252zck4h2ajds380zsgc9naed70d3g0qnyrew86rx2ms73au4m'>NB</a><a href='https://nostrurl.com/?q=npub1h2xkpasw252zck4h2ajds380zsgc9naed70d3g0qnyrew86rx2ms73au4m'>☯️]</a><a href='lightning:jadylotus@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/sati@iris.to'>Nirvana@Sati</a><a href='https://badges.page/p/92f3fa01490f9d62a4a7c2875db96bd8e6f880862bc4a43b4612913637f4d5f5'>[⚛️</a><a href='https://nostr.band/?q=npub1jtel5q2fp7wk9f98c2r4mwttmrn03qyx90z2gw6xz2gnvdl56h6s8tcuqd'>NB</a><a href='https://nostrurl.com/?q=npub1jtel5q2fp7wk9f98c2r4mwttmrn03qyx90z2gw6xz2gnvdl56h6s8tcuqd'>☯️]</a><a href='lightning:invalidstove67@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "XC",
+      "name": "<a href='https://8nostr.com/xiangcai@nostrplebs.com'>@xiangcai</a><a href='https://badges.page/p/8d7e9c016e78dc20e48a7c384cf9123642a5c35fb833b0fb1515cd93ca12555c'>[⚛️</a><a href='https://nostr.band/?q=npub134lfcqtw0rwzpey20suye7gjxep2ts6lhqemp7c4zhxe8jsj24wqqzelwh'>NB</a><a href='https://nostrurl.com/?q=npub134lfcqtw0rwzpey20suye7gjxep2ts6lhqemp7c4zhxe8jsj24wqqzelwh'>☯️]</a><a href='lightning:hawkishhill48@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "HAHA",
+      "name": "<a href='https://8nostr.com/haha@btcdv.com'>@haha</a><a href='https://badges.page/p/4f2118e124779291eef71a4fbdfc3458e5709d8efcdb941bf54ce2094e987729'>[⚛️</a><a href='https://nostr.band/?q=npub1fus33cfyw7ffrmhhrf8mmlp5trjhp8vwlndegxl4fn3qjn5cwu5snya2ga'>NB</a><a href='https://nostrurl.com/?q=npub1fus33cfyw7ffrmhhrf8mmlp5trjhp8vwlndegxl4fn3qjn5cwu5snya2ga'>☯️]</a><a href='lightning:haha@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "CL",
+      "name": "<a href='https://8nostr.com/CryptoLife@btcdv.com'>Crypto Life@Crypto</a><a href='https://badges.page/p/2fdf18709f55eaf26e22bc303866f1aeb888f14a0ad673c08182bd791589024c'>[⚛️</a><a href='https://nostr.band/?q=npub19l03suyl2h40ym3zhscrseh346ug3u22ptt88syps27hj9vfqfxq3ykck2'>NB</a><a href='https://nostrurl.com/?q=npub19l03suyl2h40ym3zhscrseh346ug3u22ptt88syps27hj9vfqfxq3ykck2'>☯️]</a><a href='lightning:glaringevening12@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "TD",
+      "name": "<a href='https://8nostr.com/TopDaily@btcdv.com'>@TopDaily</a><a href='https://badges.page/p/b7fe87f1051265ef8322fa77c7a0e4ff7d6b310dc24562835b842cadbee5fe91'>[⚛️</a><a href='https://nostr.band/?q=npub1kllg0ug9zfj7lqezlfmu0g8yla7kkvgdcfzk9q6mssk2m0h9l6gskftzwn'>NB</a><a href='https://nostrurl.com/?q=npub1kllg0ug9zfj7lqezlfmu0g8yla7kkvgdcfzk9q6mssk2m0h9l6gskftzwn'>☯️]</a><a href='lightning:crowdedicicle15@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "WILL",
+      "name": "<a href='https://8nostr.com/will@btcdv.com'>@will</a><a href='https://badges.page/p/a46113223addbb60781a9e62a32cf1d5868ca251775adc8b517b394f6656770e'>[⚛️</a><a href='https://nostr.band/?q=npub153s3xg36mkakq7q6ne32xt836krgegj3waddez630vu57ejkwu8qvzznj7'>NB</a><a href='https://nostrurl.com/?q=npub153s3xg36mkakq7q6ne32xt836krgegj3waddez630vu57ejkwu8qvzznj7'>☯️]</a><a href='lightning:coolestspring19@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "999",
+      "name": "<a href='https://8nostr.com/_@ahr999.com'>九神ahr999.com@ahr999</a><a href='https://ahr999.com/'><b>网</b></a><a href='https://ahr999.com/ahr999'><b>文</b></a><a href='https://ahr999.com/ahr999.com'><b>指</b></a><a href='https://badges.page/p/331ef5df78a006f50703da210389456ce6a31483a4e02725f0909206599657d4'>[⚛️</a><a href='https://nostr.band/?q=npub1xv00thmc5qr02pcrmgss8z29dnn2x9yr5nszwf0sjzfqvkvk2l2qkvwsmg'>NB</a><a href='https://nostrurl.com/?q=npub1xv00thmc5qr02pcrmgss8z29dnn2x9yr5nszwf0sjzfqvkvk2l2qkvwsmg'>☯️]</a><a href='lightning:cndx@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "CIWEI",
+      "name": "<a href='https://8nostr.com/ciwei@nostr.fan'>刺猬@ciwei</a><a href='https://badges.page/p/841536a6f785b491dbd04f300be7c9f8f5cdbdb255499f9be97ddedbaec7d941'>[⚛️</a><a href='https://nostr.band/?q=npub1ss2ndfhhsk6frk7sfucqhe7flr6um0dj24yelxlf0h0dhtk8m9qs4t6j68'>NB</a><a href='https://nostrurl.com/?q=npub1ss2ndfhhsk6frk7sfucqhe7flr6um0dj24yelxlf0h0dhtk8m9qs4t6j68'>☯️]</a><a href='lightning:ciwei241@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "YL",
+      "name": "<a href='https://8nostr.com/auroraskye@iris.to'>Arioch@亚略</a><a href='https://badges.page/p/d9d7c1b07be8e2750becfc954cf4ea4bac35eb5ffc415e55708af347e63383a2'>[⚛️</a><a href='https://nostr.band/?q=npub1m8turvrmar382zlvlj25ea82fwkrt66ll3q4u4ts3te50e3nsw3qqmhj2r'>NB</a><a href='https://nostrurl.com/?q=npub1m8turvrmar382zlvlj25ea82fwkrt66ll3q4u4ts3te50e3nsw3qqmhj2r'>☯️]</a><a href='lightning:c1990622676@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "BTC",
+      "name": "<a href='https://8nostr.com/btclib@getalby.com'>@btc</a><a href='https://badges.page/p/41e1a2a64a84343e51d7e6725e398cd7b2f5df7674799d4e9d93a3df74ddd301'>[⚛️</a><a href='https://nostr.band/?q=npub1g8s69fj2ss6ru5whuee9uwvv67e0thmkw3ue6n5ajw3a7axa6vqsh30hex'>NB</a><a href='https://nostrurl.com/?q=npub1g8s69fj2ss6ru5whuee9uwvv67e0thmkw3ue6n5ajw3a7axa6vqsh30hex'>☯️]</a><a href='lightning:btclib@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "DASHU",
+      "name": "<a href='https://8nostr.com/DASHU@btcdv.com'>DASHU@nostrmo</a><a href='https://badges.page/p/29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07'>[⚛️</a><a href='https://nostr.band/?q=npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk'>NB</a><a href='https://nostrurl.com/?q=npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk'>☯️]</a><a href='lightning:brazenicicle82@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "SY",
+      "name": "<a href='https://8nostr.com/SY@btcdv.com'>@SY</a><a href='https://badges.page/p/1e706011c932ba1b800d5287c91a527f060822e8858e66ac76effd97c14f7ebd'>[⚛️</a><a href='https://nostr.band/?q=npub1recxqywfx2aphqqd22rujxjj0urqsghgsk8xdtrkal7e0s20067swludg8'>NB</a><a href='https://nostrurl.com/?q=npub1recxqywfx2aphqqd22rujxjj0urqsghgsk8xdtrkal7e0s20067swludg8'>☯️]</a><a href='lightning:bitcoinnostr@walletofsatoshi.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "ALE",
+      "name": "<a href='https://8nostr.com/ale@nostrpurple.com'>@ale</a><a href='https://badges.page/p/0c98c195d9d44a99eac12f4134d47ced21c764fb6b12440de8ca3adbf0c373a7'>[⚛️</a><a href='https://nostr.band/?q=npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>NB</a><a href='https://nostrurl.com/?q=npub1pjvvr9we639fn6kp9aqnf4rua5suwe8mdvfygr0gegadhuxrwwnsz5jf67'>☯️]</a><a href='lightning:ale@getalby.com'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "YY",
+      "name": "<a href='https://8nostr.com/yy@btcdv.com'>@yy</a><a href='https://badges.page/p/7460b7fd291c47bc397fe58d0349b467984e7333772d1b8c7f69cc814fc4e74b'>[⚛️</a><a href='https://nostr.band/?q=npub1w3st0lffr3rmcwtlukxsxjd5v7vyuuenwuk3hrrld8xgzn7yua9sj7qhv8'>NB</a><a href='https://nostrurl.com/?q=npub1w3st0lffr3rmcwtlukxsxjd5v7vyuuenwuk3hrrld8xgzn7yua9sj7qhv8'>☯️]</a><a href='lightning:0x9e2b923daa611ca1@ln.tips'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "NodeZ",
+      "name": "<a href='https://8nostr.com/nodez@nostrich.land'>@nodez</a><a href='https://badges.page/p/f0c864cf573de171053bef4df3b31c6593337a097fbbd9f20d78506e490c6b64'>[⚛️</a><a href='https://nostr.band/?q=npub17ryxfn6h8hshzpfmaaxl8vcuvkfnx7sf07aanusd0pgxujgvddjq7y9shm'>NB</a><a href='https://nostrurl.com/?q=npub17ryxfn6h8hshzpfmaaxl8vcuvkfnx7sf07aanusd0pgxujgvddjq7y9shm'>☯️]</a><a href='lightning:0x717bd60036c64242@ln.tips'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/_@fiatjaf.com'>@fiatjaf</a><a href='https://badges.page/p/3bf0c63fcb93463407af97a5e5ee64fa883d107ef9e558472c4eb9aaaefa459d'>[⚛️</a><a href='https://nostr.band/?q=npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6'>NB</a><a href='https://nostrurl.com/?q=npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/odell@werunbtc.com'>@odell</a><a href='https://badges.page/p/04c915daefee38317fa734444acee390a8269fe5810b2241e5e6dd343dfbecc9'>[⚛️</a><a href='https://nostr.band/?q=npub1qny3tkh0acurzla8x3zy4nhrjz5zd8l9sy9jys09umwng00manysew95gx'>NB</a><a href='https://nostrurl.com/?q=npub1qny3tkh0acurzla8x3zy4nhrjz5zd8l9sy9jys09umwng00manysew95gx'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/saylor@NostrVerified.com'>@saylor</a><a href='https://badges.page/p/a341f45ff9758f570a21b000c17d4e53a3a497c8397f26c0e6d61e5acffc7a98'>[⚛️</a><a href='https://nostr.band/?q=npub15dqlghlewk84wz3pkqqvzl2w2w36f97g89ljds8x6c094nlu02vqjllm5m'>NB</a><a href='https://nostrurl.com/?q=npub15dqlghlewk84wz3pkqqvzl2w2w36f97g89ljds8x6c094nlu02vqjllm5m'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/preston@NostrVerified.com'>@preston</a><a href='https://badges.page/p/85080d3bad70ccdcd7f74c29a44f55bb85cbcd3dd0cbb957da1d215bdb931204'>[⚛️</a><a href='https://nostr.band/?q=npub1s5yq6wadwrxde4lhfs56gn64hwzuhnfa6r9mj476r5s4hkunzgzqrs6q7z'>NB</a><a href='https://nostrurl.com/?q=npub1s5yq6wadwrxde4lhfs56gn64hwzuhnfa6r9mj476r5s4hkunzgzqrs6q7z'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/nvk@nvk.org'>@nvk</a><a href='https://badges.page/p/e88a691e98d9987c964521dff60025f60700378a4879180dcbbb4a5027850411'>[⚛️</a><a href='https://nostr.band/?q=npub1az9xj85cmxv8e9j9y80lvqp97crsqdu2fpu3srwthd99qfu9qsgstam8y8'>NB</a><a href='https://nostrurl.com/?q=npub1az9xj85cmxv8e9j9y80lvqp97crsqdu2fpu3srwthd99qfu9qsgstam8y8'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/hold1btc@btc.pics'>@hold1btc</a><a href='https://badges.page/p/4494fbdf22462c2724085c8e85616a88a45c1dca77c05a94f19d42b8594f8195'>[⚛️</a><a href='https://nostr.band/?q=npub1gj20hhezgckzwfqgtj8g2ct23zj9c8w2wlq94983n4ptsk20sx2sssjj88'>NB</a><a href='https://nostrurl.com/?q=npub1gj20hhezgckzwfqgtj8g2ct23zj9c8w2wlq94983n4ptsk20sx2sssjj88'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/reborn@nostrurl.com'>@reborn</a><a href='https://badges.page/p/36538683c752499d096869c200e1c599ddc835b87efffeb45c88ab9ac68fba3e'>[⚛️</a><a href='https://nostr.band/?q=npub1xefcdq782fye6ztgd8pqpcw9n8wusddc0mlladzu3z4e4350hglq60cmqk'>NB</a><a href='https://nostrurl.com/?q=npub1xefcdq782fye6ztgd8pqpcw9n8wusddc0mlladzu3z4e4350hglq60cmqk'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/seven@nostrplebs.com'>@seven</a><a href='https://badges.page/p/1e0da54fdcb611d77fd1bd1deb828bba594596b147f6ce3a997d48bd40746dc3'>[⚛️</a><a href='https://nostr.band/?q=npub1rcx62n7ukcgawl73h5w7hq5thfv5t943glmvuw5e04yt6sr5dhpsxxyg9t'>NB</a><a href='https://nostrurl.com/?q=npub1rcx62n7ukcgawl73h5w7hq5thfv5t943glmvuw5e04yt6sr5dhpsxxyg9t'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/btcdage@iris.to'>@btcdage</a><a href='https://badges.page/p/f76e2a9bb1bb2cc65ef572382102d309c3efd2641081888a91e029138e8044de'>[⚛️</a><a href='https://nostr.band/?q=npub17ahz4xa3hvkvvhh4wguzzqknp8p7l5nyzzqc3z53uq538r5qgn0q40z7pw'>NB</a><a href='https://nostrurl.com/?q=npub17ahz4xa3hvkvvhh4wguzzqknp8p7l5nyzzqc3z53uq538r5qgn0q40z7pw'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/brother@iris.to'>@brother</a><a href='https://badges.page/p/f91e8dbdd90eaa69a0466553c0947732c6ea7d593f9b2de171540edae7a2888e'>[⚛️</a><a href='https://nostr.band/?q=npub1ly0gm0wep64xngzxv4fup9rhxtrw5l2e87djmct32s8d4eaz3z8qqca5wc'>NB</a><a href='https://nostrurl.com/?q=npub1ly0gm0wep64xngzxv4fup9rhxtrw5l2e87djmct32s8d4eaz3z8qqca5wc'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/bitcoinmagazine@b.tc'>@bitcoinmagazine</a><a href='https://badges.page/p/59fbee7369df7713dbbfa9bbdb0892c62eba929232615c6ff2787da384cb770f'>[⚛️</a><a href='https://nostr.band/?q=npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu'>NB</a><a href='https://nostrurl.com/?q=npub1t8a7uumfmam38kal4xaakzyjccht4y5jxfs4cmlj0p768pxtwu8skh56yu'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/huan@getalby.com'>@huan</a><a href='https://badges.page/p/2896c0841562e8a2ea994e31ae4df009a479b564e9fd9f6626e287d5b5c8a57d'>[⚛️</a><a href='https://nostr.band/?q=npub19ztvppq4vt52965efcc6un0spxj8ndtya87e7e3xu2ratdwg547sy5qh4g'>NB</a><a href='https://nostrurl.com/?q=npub19ztvppq4vt52965efcc6un0spxj8ndtya87e7e3xu2ratdwg547sy5qh4g'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/proton@nostrplebs.com'>@proton</a><a href='https://badges.page/p/a2d9f796461e3926e82d6ff02661be5fc57d3d6b3b31b6aaf76344db8280e331'>[⚛️</a><a href='https://nostr.band/?q=npub15tvl09jxrcujd6pddlczvcd7tlzh60tt8vcmd2hhvdzdhq5quvcs7nnc0q'>NB</a><a href='https://nostrurl.com/?q=npub15tvl09jxrcujd6pddlczvcd7tlzh60tt8vcmd2hhvdzdhq5quvcs7nnc0q'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/cosmicpunk@nostr.fan'>@cosmicpunk</a><a href='https://badges.page/p/90b1377e5640b8be512d13d23482ef7f69c543e7c11a5b6f25b129e5b930ed86'>[⚛️</a><a href='https://nostr.band/?q=npub1jzcnwljkgzutu5fdz0frfqh00a5u2sl8cyd9kme9ky57twfsakrqyzrr3g'>NB</a><a href='https://nostrurl.com/?q=npub1jzcnwljkgzutu5fdz0frfqh00a5u2sl8cyd9kme9ky57twfsakrqyzrr3g'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/diystar@iris.to'>@diystar</a><a href='https://badges.page/p/24753be4434316c063dcda0dd24fbb236ece52bd1c34961a648f7a2f950a321c'>[⚛️</a><a href='https://nostr.band/?q=npub1y36nhezrgvtvqc7umgxaynamydhvu54ars6fvxny3aazl9g2xgwqwt3yrp'>NB</a><a href='https://nostrurl.com/?q=npub1y36nhezrgvtvqc7umgxaynamydhvu54ars6fvxny3aazl9g2xgwqwt3yrp'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/Sandi@nostrurl.com'>@Sandi</a><a href='https://badges.page/p/04606c11b067509698f8d06339c11e618c455d226718675b6d6b379eeb25f14c'>[⚛️</a><a href='https://nostr.band/?q=npub1q3sxcydsvagfdx8c6p3nnsg7vxxy2hfzvuvxwkmddvmea6e979xqfg5mw6'>NB</a><a href='https://nostrurl.com/?q=npub1q3sxcydsvagfdx8c6p3nnsg7vxxy2hfzvuvxwkmddvmea6e979xqfg5mw6'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
+    }
+,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/smj@nostrurl.com'>@smj</a><a href='https://badges.page/p/38144ce34bc3bb510e764d0311496aa072396688cf68aac1b49defc661fe2bc0'>[⚛️</a><a href='https://nostr.band/?q=npub18q2yec6tcwa4zrnkf5p3zjt25perje5gea524sd5nhhuvc0790qqg6n349'>NB</a><a href='https://nostrurl.com/?q=npub18q2yec6tcwa4zrnkf5p3zjt25perje5gea524sd5nhhuvc0790qqg6n349'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "0"
     }
   ]
 }
