@@ -8,8 +8,13 @@
       "price": "0"
     },{
       "id": "WILL",
-      "name": "<a href='https://8nostr.com/jb55@jb55.com'>Will@jb55</a><a href='https://badges.page/p/32e1827635450ebb3c5a7d12c1f8e7b2b514439ac10a67eef3d9fd9c5c68e245'>[⚛️</a><a href='https://nostr.band/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>NB</a><a href='https://nostrurl.com/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>☯️]</a><a href='lightning:jb55@sendsats.lol'>[⚡]</a>",
+      "name": "<a href='https://8nostr.com/jb55@jb55.com'>Will@jb55  Damus</a><a href='https://badges.page/p/32e1827635450ebb3c5a7d12c1f8e7b2b514439ac10a67eef3d9fd9c5c68e245'>[⚛️</a><a href='https://nostr.band/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>NB</a><a href='https://nostrurl.com/?q=npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s'>☯️]</a><a href='lightning:jb55@sendsats.lol'>[⚡]</a>",
       "price": "100163689"
+    }
+	  ,{
+      "id": "Nostr",
+      "name": "<a href='https://8nostr.com/vitor@vitorpamplona.com'> Vitor Pamplona@vitor</a><a href='https://github.com/vitorpamplona/amethyst/releases/'><b>Amethyst</b></a><a href='https://badges.page/p/460c25e682fda7832b52d1f22d3d22b3176d972f60dcdc3212ed8c92ef85065c'>[⚛️</a><a href='https://nostr.band/?q=npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z'>NB</a><a href='https://nostrurl.com/?q=npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z'>☯️]</a><a href='lightning:'>[⚡]</a>",
+      "price": "14507511"
     }
 ,{
       "id": "JACK",
